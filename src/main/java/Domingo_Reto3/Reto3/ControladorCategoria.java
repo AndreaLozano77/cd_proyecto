@@ -52,5 +52,5 @@ public class ControladorCategoria {
     public boolean delete(@PathVariable("id") int categoriaId) {
         return servicio.deletecategoria(categoriaId);
     }
-
+    
 }
